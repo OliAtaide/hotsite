@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: Jost, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(lightgrey, white, lightgrey);
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 10em;
+}
+
+.btn {
+    border: 2px solid #055B8D;
+    border-radius: 12px;
+}
+
+h3,
+.btn,
+.revela h1 {
+    color: #055B8D;
+}
+
+h3,
+.btn,
+h1 {
+    font-weight: bold;
+}
+
+.avasus h1 {
+    color: #BE1622;
+}
+
+p,
+.revela h3,
+.osseus h3 {
+    font-weight: 700;
+    color: #70635D;
+}
+
+.avasus .t1 {
+    font-size: 24px;
+}
+
+.avasus .t2 {
+    font-size: 16px;
+}
+
+.col:not(:last-child, :first-child) {
+    border-right: 2px solid #746963;
+}
+
+.sifilis_nao .n1 {
+    color: #338835;
+    font-size: 40px;
+}
+
+.sifilis_nao .n2,
+.sifilis_nao .n3,
+.avasus h1 {
+    font-size: 68px;
+}
+
+.sifilis_nao .n2 {
+    color: #F49C25;
+}
+
+.sifilis_nao .n3 {
+    color: #C0348B;
+}
+
+.pntd h1 {
+    color: #E66113;
+    font-size: 64px;
+}
+
+.revela h3 {
+    font-size: 26px;
+}
+
+.revela h1 {
+    font-size: 34px;
+}
+
+.osseus h1 {
+    color: #1A808E;
+    font-size: 60px;
+}
+
+.osseus h3 {
+    font-size: 28px;
+}

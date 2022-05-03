@@ -36,7 +36,7 @@ h1 {
 
 p,
 .revela h3,
-.osseus h3 {
+.osseus h3, .email {
     font-weight: 700;
     color: #70635D;
 }
@@ -49,8 +49,12 @@ p,
     font-size: 16px;
 }
 
-.col:not(:last-child, :first-child) {
+.col:not(:last-child, :first-child), .contato {
     border-right: 2px solid #746963;
+}
+
+.fone, .contatos{
+    color: #4A4951;
 }
 
 .sifilis_nao .n1 {
